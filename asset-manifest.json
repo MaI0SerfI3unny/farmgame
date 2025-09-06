@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/farmgame/static/css/main.d0c8ebfe.css",
+    "main.css": "/farmgame/static/css/main.8afc8d32.css",
     "main.js": "/farmgame/static/js/main.c07f37f8.js",
     "static/js/453.bfe87118.chunk.js": "/farmgame/static/js/453.bfe87118.chunk.js",
     "static/media/background.png": "/farmgame/static/media/background.e0ac75380ce56a30c0a5.png",
     "static/media/work_tree.png": "/farmgame/static/media/work_tree.d2131721fc120c03a035.png",
     "static/media/logo.png": "/farmgame/static/media/logo.ae095842811494819a05.png",
     "index.html": "/farmgame/index.html",
-    "main.d0c8ebfe.css.map": "/farmgame/static/css/main.d0c8ebfe.css.map",
+    "main.8afc8d32.css.map": "/farmgame/static/css/main.8afc8d32.css.map",
     "main.c07f37f8.js.map": "/farmgame/static/js/main.c07f37f8.js.map",
     "453.bfe87118.chunk.js.map": "/farmgame/static/js/453.bfe87118.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c8ebfe.css",
+    "static/css/main.8afc8d32.css",
     "static/js/main.c07f37f8.js"
   ]
 }
