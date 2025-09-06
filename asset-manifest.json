@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/farmgame/static/css/main.767ff66a.css",
-    "main.js": "/farmgame/static/js/main.32e37d79.js",
+    "main.css": "/farmgame/static/css/main.c3c3a6ff.css",
+    "main.js": "/farmgame/static/js/main.6ed5ed9d.js",
     "static/js/453.bfe87118.chunk.js": "/farmgame/static/js/453.bfe87118.chunk.js",
     "static/media/background.png": "/farmgame/static/media/background.e0ac75380ce56a30c0a5.png",
+    "static/media/shop.png": "/farmgame/static/media/shop.b0f2869c9f6baa3bedf8.png",
     "static/media/work_tree.png": "/farmgame/static/media/work_tree.d2131721fc120c03a035.png",
     "static/media/logo.png": "/farmgame/static/media/logo.ae095842811494819a05.png",
     "index.html": "/farmgame/index.html",
-    "main.767ff66a.css.map": "/farmgame/static/css/main.767ff66a.css.map",
-    "main.32e37d79.js.map": "/farmgame/static/js/main.32e37d79.js.map",
+    "static/media/back.svg": "/farmgame/static/media/back.ce1e22251f41b37c22792f8df3bb6874.svg",
+    "main.c3c3a6ff.css.map": "/farmgame/static/css/main.c3c3a6ff.css.map",
+    "main.6ed5ed9d.js.map": "/farmgame/static/js/main.6ed5ed9d.js.map",
     "453.bfe87118.chunk.js.map": "/farmgame/static/js/453.bfe87118.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.767ff66a.css",
-    "static/js/main.32e37d79.js"
+    "static/css/main.c3c3a6ff.css",
+    "static/js/main.6ed5ed9d.js"
   ]
 }
