@@ -1,0 +1,133 @@
+.layout {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/background.png');
+  background-repeat: no-repeat !important;
+  background-position: center center;
+  background-size: cover;
+}
+
+.layoutContainer{
+  padding: 30px;
+}
+
+.containerLogo {
+  h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #282c34;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -15px;
+  }
+  img{
+    max-width: 120px;
+    background: #282c34;
+    border-radius: 100%;
+
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bottomPanel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 16px;
+  z-index: 1000;
+  .profile{
+    text-align: left;
+    padding: 10px 15px;
+  }
+  
+  .balance {
+    font-weight: bold;
+  }
+  
+  .menu {
+    padding: 10px 15px;
+    display: flex;
+    gap: 15px;
+    background: rgba(40, 44, 52, 0.95);
+    button {
+      background: #61dafb;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.2s;
+      display: flex;
+      &:hover {
+        background: #4bbad9;
+      }
+    }
+  }
+  
+  .nickname {
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+}
+
+.workWrapper {
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.work {
+  width: 230px;
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.1s ease;
+  &:active {
+    transform: translateX(-50%) scale(0.8);
+  }
+}
+
+.effect {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  animation: floatUp 1s forwards;
+  pointer-events: none;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateX(calc(-50% + var(--offsetX, 0px))) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(calc(-50% + var(--offsetX, 0px))) translateY(-40px);
+  }
+}
